@@ -1,5 +1,5 @@
 # ============================================================
-#  test_bridge_pycharm.py
+# bridge_pycharm.py
 #  Este archivo es el "lanzador". Su único trabajo es:
 #    1. Saber qué archivo de Nuke quieres ejecutar
 #    2. Leerlo y enviarlo al servidor de Nuke
@@ -20,7 +20,7 @@ from nuke_client import send_to_nuke
 # Cambia esta ruta para apuntar al archivo que quieras
 # ejecutar en Nuke. Es la única línea que necesitas tocar.
 # ------------------------------------------------------------
-SCRIPT_A_ENVIAR = r'C:\Users\nacho\.nuke\Nuke-PyCharm_Bridge\funcion_a_enviar.py'
+SCRIPT_A_ENVIAR = r'C:\Users\nacho\.nuke\Nuke-PyCharm_Bridge\send_script.py'
 
 # ------------------------------------------------------------
 # ENVÍO
